@@ -12,7 +12,7 @@ public class Switch3 {
 		case 7 -> "Sunday";
 		default -> "Invalid Day";
 
-	}
-
+	
+		}
 }
 }
