@@ -11,15 +11,20 @@ public class Largest_01 {
 		int a= sc.nextInt(); 
 		System.out.print("Enter second number- "); 
 		int b= sc.nextInt(); 
-
 		if (a > b) {
 			System.out.println("a is greater than b");
 		if (a < b) {
 			System.out.println("a is less than b");
 		if (a == b) {
-			System.out.println("a is equall to b");
-		}
-	}
+			System.out.println("a is equal to b");
+			
+		
+		 
+	    }		
+	}	
+
+	
+	
 
 		}
 	}
