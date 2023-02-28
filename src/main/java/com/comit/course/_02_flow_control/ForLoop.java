@@ -21,7 +21,7 @@ public class ForLoop {
 				//break;  // breaks out the loop
 				continue // continues with the next interaction 
 			} 
-		/* initialization; termination; incresement */
+		/* initialization; termination; increment */
 		for (int j = 0; j<10; j++) {
 			
 			if (j==5) {
@@ -32,10 +32,10 @@ public class ForLoop {
 			//System.out.println(i);
 		} //while (i <10);
 		
-		*/
+		/* for eash-loop, enhanced for-loop as of java 5 */
 		System.out.println("The End");
 		
-		int a = 5
+		//int a = 5
 				int[] array = {1,2,3,4,5};
 		
 		for (int c: array) {
@@ -43,5 +43,6 @@ public class ForLoop {
 		}
 
 	}
+}
 
 

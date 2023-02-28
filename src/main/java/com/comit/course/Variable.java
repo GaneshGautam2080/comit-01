@@ -1,5 +1,8 @@
 package com.comit.course;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Variable {
 
 	public static void main(String[] arg) {
@@ -16,31 +19,46 @@ public class Variable {
 	
 	short c =  32000; /*2 bytes */
 	byte d =  -120; /* 1 byte */
-/* Decimal Variables */
+	
+	/* 
+	 * Decimal Variables 
+	 */
 			
-			Double e = 10.456;  /*8 bytes */
-	float f = 1445.453F; /* 4 bytes */
+	Double e = 10.456;  /*8 bytes */
+	float f = 1445.4576543F; /* 4 bytes */
 
-	/* Text Variables 	 */
+	/* 
+	 * Text Variables 	 
+	*/
+	 int x = 0;
 	char g = 'A';  // 2 bytes
 	
 	boolean h =true;
 	
-	/* reference type 
+	System.out.println(h);  /* cast   */
+/* 
+	* reference type 
 	* Never compare reference type variable with the operators
-	* always compare refereence type variable withh equall() method
+	* always compare reference type variable with equals() method
+	
+	* Ways to declare and initialize Strings
 	
 	* 1. String s = new String ("Hello"); //standard Way//
 	* 2. String s = "Hello";
 	*/
 	String s1 = "Hello";
 	String s2= "Hello";
+	
 	if (s1.equals(s2)) {
 		System.out.println("Equal " + s1 + "-" + s2 );
 	}
 	else  {
 			System.out.println("Not Equall " +s1 + "-" + s2);
 		}
+	List<String> list = new ArrayList<>();
+	list.add("Hello");
+	System.out.println("This is modification.");
+	
 	}
 	
 	

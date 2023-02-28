@@ -18,7 +18,7 @@ public class WhileLoop {
 			i++;
 			if (i == 5) {
 				//break;  // breaks out the loop
-				continue // continues with the next interaction 
+				//continue // continues with the next interaction 
 			} 
 		/*
 		do {
