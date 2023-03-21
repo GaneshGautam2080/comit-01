@@ -1,5 +1,7 @@
 package com.comit.course;
 
+import java.util.Random;
+
 class Password{
 	
 	String password;

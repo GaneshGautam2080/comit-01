@@ -1,41 +1,29 @@
 package com.comit.course._11_final;
 
 /*
- * The final keyword can be applied on Classes, Methods and Variables.
- * 
- * If you make a class final then class can not be extended.
- * For instance: String , Integer
+ * The final keyword can be applied on Classes, methods and variables.
  */
 
+/*
+ * A class final cannot be extended.
+ * For instance: String, Integer
+ */
 class Parent{
-	
+
+	/*
+	 * A final method cannot be overridden by a child class.
+	 */
 	void print() {
-	System.out.println("I am the Parent Class");
+		System.out.println("I am the Parent class");
 	}
 }
+
 class Child extends Parent {
+	
 	@Override
 	void print() {
-	System.out.println("I am the Child Class");
-
+		System.out.println("I am the Child class");
 	}
-	
 }
 
-public class FinalExample {
-	
-	/* A final class attribut cannot be updated -> constant.
-	 * A constant in java is defined as static final.
-	 * By convention constants in Java must ll in UPPERCASE letters.
-	 */
-	
-	
-	static int num = 4;
 
-	public static void main(String[] args) {
-	num = 5;
-
-	}
-
-}
-}
